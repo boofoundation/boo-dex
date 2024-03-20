@@ -1,25 +1,25 @@
 # Introduction
-Boo Dex is a Solana Token Program Aggregator which instructs transaction into the solana blockchain; swap. By aggregating transaction, Boo Dex generate some revenue from the transaction fee everytime a transaction is successfully confirmed.
+Boo Dex is a Solana Token Program Aggregator that facilitates transactions on the Solana blockchain, specifically swaps. By aggregating transactions, Boo Dex generates revenue from transaction fees every time a transaction is successfully confirmed.
 
 ## Notice
-You may see blowfish warning - It is normal because Blowfish is a protocol that may give some wallet user warning of suspicious transaction. Why Suspicious? Let us explain :
-1. Our domain (boocoin.co) has just registered at March 2024, which is new. Blowfish may read this as a suspicious website.
-2. Boo Dex has not yet verified by the Blowfish protocol. (Which we will get our verification status done and remove the warning as soon as possible)
+You may encounter a Blowfish warning - this is normal as Blowfish is a protocol that can give wallet users warnings about suspicious transactions. Why suspicious? Let us explain:
+1. Our domain (boocoin.co) was registered in March 2024, which is relatively new. Blowfish may interpret this as a suspicious website.
+2. Boo Dex has not yet been verified by the Blowfish protocol (we are working on getting our verification status and removing the warning as soon as possible).
 
-Then, how to get rid of this warning? Simply by pressing ignore button. (Transaction may fail if you ignore it more than 20 seconds due to timeout, you may swap again).
+How do you get rid of this warning? Simply press the ignore button. (Transactions may fail if you ignore it for more than 20 seconds due to a timeout; you can retry the swap).
 
 ## Signing and Transacting
-- Boo Dex only aggregates transaction and perform swap instruction over Solana Blockchain.
-- Boo Dex does not have full access to your wallet, the sign is only required once you swap between tokens.
+- Boo Dex only aggregates transactions and performs swap instructions on the Solana Blockchain.
+- Boo Dex does not have full access to your wallet; signing is only required when you swap between 
 
 ## Requirement
 At version 1.0, we only support Phantom Wallet which you can get it from : https://phantom.app/
 
 ## Step-by-step Guide
-1. Get your Phantom Wallet installed in your device.
+1. Install Phantom Wallet on your device.
 2. Access the Boo Dex Aggregator - https://boocoin.co/dex
-3. Try to connect your wallet to the dex
-4. Select your token to swap, the above one is the spending token and the bottom one is the receive token.
-5. Make sure you have the amount of token to swap from the spending token.
+3. Connect your wallet to the dex.
+4. Select the tokens to swap - the top one is the spending token, and the bottom one is the receiving token.
+5. Ensure you have enough of the spending token to swap.
 6. Press on Swap button, then sign the transaction. (Once signed, the instruction of swap will be sent to the blockchain)
 7. Once the transaction is okay, then the dApp will send you the instruction detail that is verified on solscan.
